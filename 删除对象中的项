@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>认识对象</title>
+</head>
+
+<body>
+    <script>
+
+    var lang = "language"
+
+    var person = {
+        hair: "black",
+        skin: "yellow",
+        nationality: "France"
+    }
+    // 补充代码
+    person.language="Chinese";
+    delete person.nationality;
+    console.log(person);
+    
+
+
+    </script>
+</body>
